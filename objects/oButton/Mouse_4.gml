@@ -1,6 +1,7 @@
 if ( link == linktype.SimpleLinks )
 {
-	url_open( "https://" + url_get_domain() + "/simplelinks" );
+	//url_open( "https://" + url_get_domain() + "/SimpleLinks" );
+	url_open( working_directory + "SimpleLinks.html" );
 }
 else
 {
