@@ -4,7 +4,6 @@
   "name": "Links",
   "resources": [
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},"order":4,},
-    {"id":{"name":"Enumerators","path":"scripts/Enumerators/Enumerators.yy",},"order":3,},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},"order":1,},
     {"id":{"name":"BufferFunctions","path":"scripts/BufferFunctions/BufferFunctions.yy",},"order":5,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
