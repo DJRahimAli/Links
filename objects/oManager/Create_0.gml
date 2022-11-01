@@ -11,7 +11,7 @@ links =
 	["Newgrounds",	   "https://djkirby78.newgrounds.com"						 ],
 	["Youtube",		   "https://www.youtube.com/channel/UCJsoLwDwoLmUAQlAErGwWgA"],
 	["Youtube\nExtra", "https://www.youtube.com/channel/UCd5sS5GpmkA4hW7h0d9_vOw"],
-	["Simple Links"]
+	["Simple Links",   ""														 ]
 ];
 
 
