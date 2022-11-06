@@ -18,7 +18,7 @@ links =
 	["Youtube\nExtra", "https://www.youtube.com/@RahimAliExtra"],
 	
 	["Steam",		   "https://steamcommunity.com/id/RahimAli"],
-	["SoundCloud",	   "https://www.youtube.com/@RahimAliExtra"]
+	["SoundCloud",	   "https://soundcloud.com/djrahimali"	   ]
 ];
 
 
