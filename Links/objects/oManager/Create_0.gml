@@ -5,13 +5,20 @@ layerid = layer_get_id("Background");
 
 links =
 [
-	["Simple Links",   ""														 ],
-	["Twitter",		   "https://twitter.com/djrahimali"							 ],
-	["GitHub",		   "https://github.com/DJRahimAli"							 ],
-	["Twitch",		   "https://www.twitch.tv/djrahimali"						 ],
-	["Newgrounds",	   "https://djkirby78.newgrounds.com"						 ],
-	["Youtube",		   "https://www.youtube.com/channel/UCJsoLwDwoLmUAQlAErGwWgA"],
-	["Youtube\nExtra", "https://www.youtube.com/channel/UCd5sS5GpmkA4hW7h0d9_vOw"]
+	["Simple Links",   "SimpleLinks.html"					   ],
+	
+	
+	["Twitter",		   "https://twitter.com/djrahimali"		   ],
+	["Newgrounds",	   "https://djkirby78.newgrounds.com"	   ],
+	
+	["GitHub",		   "https://github.com/DJRahimAli"		   ],
+	["Youtube",		   "https://www.youtube.com/@DJRahimAli"   ],
+	
+	["Twitch",		   "https://www.twitch.tv/djrahimali"	   ],
+	["Youtube\nExtra", "https://www.youtube.com/@RahimAliExtra"],
+	
+	["Steam",		   "https://steamcommunity.com/id/RahimAli"],
+	["SoundCloud",	   "https://www.youtube.com/@RahimAliExtra"]
 ];
 
 
