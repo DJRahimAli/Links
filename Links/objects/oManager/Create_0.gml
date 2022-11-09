@@ -1,5 +1,8 @@
 HTML_FS_Create();
 
+draw_set_font(fText);
+
+
 layerid = layer_get_id("Background");
 
 

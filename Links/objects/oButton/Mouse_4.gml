@@ -6,4 +6,10 @@ else
 {
 	//url_open( "https://" + url_get_domain() + "/SimpleLinks" );
 	url_open( "SimpleLinks.html" );
+}*/
+
+//Shake
+if ( shakeMagnitude > shake )
+{
+	shake = shakeMagnitude;
 }
