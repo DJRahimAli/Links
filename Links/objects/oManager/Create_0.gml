@@ -43,9 +43,16 @@ links = json_parse(_json);
 //show_debug_message(links);
 
 
-age = string(floor(
-date_year_span( date_create_datetime(links[9,1][0], links[9,1][1], links[9,1][2], links[9,1][3], links[9,1][4], links[9,1][5]),
-date_current_datetime()
-)));
+if ( links[9,1] != -1 )
+{
+	age = string(floor(
+	date_year_span( date_create_datetime(links[9,1][0], links[9,1][1], links[9,1][2], links[9,1][3], links[9,1][4], links[9,1][5]),
+	date_current_datetime()
+	)));
+}
+else
+{
+	age = "";
+}
 
 //show_debug_message(age);
