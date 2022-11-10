@@ -14,13 +14,16 @@ links =
 	["Twitter",		   "https://twitter.com/djrahimali"		   ],
 	["Newgrounds",	   "https://djkirby78.newgrounds.com"	   ],
 	
-	["GitHub",		   "https://github.com/DJRahimAli"		   ],
 	["Youtube",		   "https://www.youtube.com/@DJRahimAli"   ],
+	["GitHub",		   "https://github.com/DJRahimAli"		   ],
+	
+	["Youtube\nExtra", "https://www.youtube.com/@RahimAliExtra"],
+	["itch.io",		   "https://rahimali.itch.io"			   ],
+	
+	["Discord",		   "https://discord.gg/JDgXWDz5Ae"		   ],
+	["Steam",		   "https://steamcommunity.com/id/RahimAli"],
 	
 	["Twitch",		   "https://www.twitch.tv/djrahimali"	   ],
-	["Youtube\nExtra", "https://www.youtube.com/@RahimAliExtra"],
-	
-	["Steam",		   "https://steamcommunity.com/id/RahimAli"],
 	["SoundCloud",	   "https://soundcloud.com/djrahimali"	   ],
 	
 	
@@ -46,10 +49,10 @@ links = json_parse(_json);
 //show_debug_message(links);
 
 
-if ( links[9,1] != -1 )
+if ( links[11,1] != -1 )
 {
 	age = string(floor(
-	date_year_span( date_create_datetime(links[9,1][0], links[9,1][1], links[9,1][2], links[9,1][3], links[9,1][4], links[9,1][5]),
+	date_year_span( date_create_datetime(links[11,1][0], links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]),
 	date_current_datetime()
 	)));
 }
