@@ -1,4 +1,7 @@
-HTML_FS_Create();
+curr_width = browser_width;
+curr_height = browser_height;
+window_set_size(browser_width, browser_height);
+browser_scrollbars_enable();
 
 draw_set_font(fText);
 
