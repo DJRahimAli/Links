@@ -1,7 +1,7 @@
 curr_width = browser_width;
 curr_height = browser_height;
 window_set_size(browser_width, browser_height);
-browser_scrollbars_enable();
+browser_scrollbar_enabled(false);
 
 draw_set_font(fText);
 

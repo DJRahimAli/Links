@@ -1,7 +1,7 @@
 {
   "resourceType": "GMExtension",
   "resourceVersion": "1.2",
-  "name": "browser_scrollbars_enable",
+  "name": "browser_scrollbar",
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
@@ -19,14 +19,14 @@
   "androidProps": false,
   "installdir": "",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_scrollbars_enable.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_scrollbars_enable","externalName":"browser_scrollbars_enable","kind":5,"help":"browser_scrollbars_enable(z)","hidden":false,"returnType":2,"argCount":1,"args":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_scrollbar.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_scrollbar_enabled","externalName":"browser_scrollbar_enabled","kind":5,"help":"browser_scrollbar_enabled(z)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
-        {"name":"browser_get_device_pixel_ratio","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
-        {"name":"browser_stretch_canvas_ext","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
-        {"name":"browser_scrollbars_enable","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
+        {"name":"browser_get_device_pixel_ratio","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},
+        {"name":"browser_stretch_canvas_ext","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},
+        {"name":"browser_scrollbar_enabled","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},
       ],},
   ],
   "classname": "",
