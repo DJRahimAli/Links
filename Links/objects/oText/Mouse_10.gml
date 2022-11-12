@@ -1,7 +1,10 @@
-if ( date != -1 ) hover = true;
-
-//Shake
-if ( shakeMagnitude > shake )
+if ( date != -1 )
 {
-	shake = shakeMagnitude;
+	hover = true;
+	
+	//Shake
+	if ( shakeMagnitude > shake )
+	{
+		shake = shakeMagnitude;
+	}
 }

@@ -20,7 +20,7 @@ if ( date != -1 )
 	var days = date_day_span( date_create_datetime(current_year, current_month, date[2], date[3], date[4], date[5]), date_current_datetime() );
 	
 	age =
-	string( oManager.links[ 11, 0 ] ) +
+	string( oManager.links[11,0] ) +
 	string( floor( years ) ) + " Years\n" +
 	string( floor( months ) ) + " Months\n" +
 	string( floor( days ) ) + " Days";
