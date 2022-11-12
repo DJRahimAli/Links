@@ -54,15 +54,16 @@ links = json_parse(_json);
 
 if ( links[11,1] != -1 )
 {
-	var year = date_year_span( date_create_datetime(links[11,1][0], links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
+	var years = date_year_span( date_create_datetime(links[11,1][0], links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
 	
-	var month = date_month_span( date_create_datetime(current_year, links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
+	var months = date_month_span( date_create_datetime(current_year, links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
 	
-	//var day = date_day_span( date_create_datetime(current_year, links[11,1][1], links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
+	var days = date_day_span( date_create_datetime(current_year, current_month, links[11,1][2], links[11,1][3], links[11,1][4], links[11,1][5]), date_current_datetime() );
 	
 	age =
-	string( floor( year ) ) + " Years\n" +
-	string( floor( month ) ) + " Months";
+	string( floor( years ) ) + " Years\n" +
+	string( floor( months ) ) + " Months\n" +
+	string( floor( days ) ) + " Days";
 }
 
 //show_debug_message(age);
