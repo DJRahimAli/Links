@@ -1,7 +1,7 @@
 {
   "resourceType": "GMExtension",
   "resourceVersion": "1.2",
-  "name": "browser_hdpi",
+  "name": "browser_scrollbars_enable",
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
@@ -19,14 +19,14 @@
   "androidProps": false,
   "installdir": "",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_hdpi.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_scrollbars_enable.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_scrollbars_enable","externalName":"browser_scrollbars_enable","kind":5,"help":"browser_scrollbars_enable(z)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
       ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[
-        {"name":"browser_get_device_pixel_ratio","path":"extensions/browser_hdpi/browser_hdpi.yy",},
-        {"name":"browser_stretch_canvas_ext","path":"extensions/browser_hdpi/browser_hdpi.yy",},
-        {"name":"browser_scrollbars_enable","path":"extensions/browser_hdpi/browser_hdpi.yy",},
+        {"name":"browser_get_device_pixel_ratio","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
+        {"name":"browser_stretch_canvas_ext","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
+        {"name":"browser_scrollbars_enable","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},
       ],},
   ],
   "classname": "",

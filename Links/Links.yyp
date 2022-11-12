@@ -14,7 +14,7 @@
     {"id":{"name":"sOverlay","path":"sprites/sOverlay/sOverlay.yy",},"order":8,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":4,},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},"order":5,},
-    {"id":{"name":"browser_hdpi","path":"extensions/browser_hdpi/browser_hdpi.yy",},"order":0,},
+    {"id":{"name":"browser_scrollbars_enable","path":"extensions/browser_scrollbars_enable/browser_scrollbars_enable.yy",},"order":0,},
     {"id":{"name":"cos_oscillate","path":"scripts/cos_oscillate/cos_oscillate.yy",},"order":1,},
     {"id":{"name":"sin_oscillate","path":"scripts/sin_oscillate/sin_oscillate.yy",},"order":0,},
     {"id":{"name":"sText","path":"sprites/sText/sText.yy",},"order":7,},
