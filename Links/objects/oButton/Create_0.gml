@@ -1,5 +1,5 @@
-drawx = x;
-drawy = y;
+drawX = x;
+drawY = y;
 
 shake = 0;
 
