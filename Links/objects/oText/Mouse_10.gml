@@ -1,4 +1,4 @@
-if ( oManager.links[11,1] != -1 ) hover = true;
+if ( date != -1 ) hover = true;
 
 //Shake
 if ( shakeMagnitude > shake )
