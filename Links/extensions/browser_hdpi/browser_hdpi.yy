@@ -2,7 +2,6 @@
   "resourceType": "GMExtension",
   "resourceVersion": "1.2",
   "name": "browser_hdpi",
-  "hasConvertedCodeInjection": true,
   "optionsFile": "options.json",
   "options": [],
   "exportToGame": true,
@@ -21,12 +20,6 @@
   "installdir": "",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_hdpi.js","origname":"","init":"","final":"","kind":5,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_get_device_pixel_ratio","externalName":"browser_get_device_pixel_ratio","kind":5,"help":"browser_get_device_pixel_ratio()","hidden":false,"returnType":2,"argCount":0,"args":[],"documentation":"",},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_stretch_canvas_ext","externalName":"browser_stretch_canvas_ext","kind":5,"help":"browser_stretch_canvas_ext(canvas_id, w, h)","hidden":false,"returnType":2,"argCount":3,"args":[
-            2,
-            2,
-            2,
-          ],"documentation":"",},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_scrollbars_enable","externalName":"browser_scrollbars_enable","kind":5,"help":"browser_scrollbars_enable(z)","hidden":false,"returnType":2,"argCount":1,"args":[
             2,
           ],"documentation":"",},
@@ -35,12 +28,6 @@
         {"name":"browser_stretch_canvas_ext","path":"extensions/browser_hdpi/browser_hdpi.yy",},
         {"name":"browser_scrollbars_enable","path":"extensions/browser_hdpi/browser_hdpi.yy",},
       ],},
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"browser_hdpi.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"browser_stretch_canvas","externalName":"browser_stretch_canvas","kind":2,"help":"browser_stretch_canvas(width, height)","hidden":false,"returnType":2,"argCount":2,"args":[
-            2,
-            2,
-          ],"documentation":"",},
-      ],"constants":[],"ProxyFiles":[],"copyToTargets":-1,"usesRunnerInterface":false,"order":[],},
   ],
   "classname": "",
   "tvosclassname": "",
@@ -61,6 +48,7 @@
   "androidactivityinject": "",
   "gradleinject": "",
   "androidcodeinjection": "",
+  "hasConvertedCodeInjection": true,
   "ioscodeinjection": "",
   "tvoscodeinjection": "",
   "iosSystemFrameworkEntries": [],
