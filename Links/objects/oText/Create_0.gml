@@ -9,6 +9,8 @@ shakeLength = 15;
 shakeMagnitude = 4;
 
 
+date_set_timezone(timezone_utc);
+
 date = oManager.links[11,1];
 
 if ( date != -1 )
