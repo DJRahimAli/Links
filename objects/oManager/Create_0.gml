@@ -50,3 +50,6 @@ var _json = LoadString("Links.json");
 links = json_parse(_json);
 
 //show_debug_message(links);
+
+
+focusCheck = false;

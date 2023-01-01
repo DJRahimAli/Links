@@ -1,0 +1,1 @@
+focusCheck = true;

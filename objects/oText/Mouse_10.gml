@@ -10,7 +10,7 @@ if ( date != -1 )
 }
 
 
-if (playMusic)
+if (playMusic && oManager.focusCheck)
 {
 	audio_play_sound(musBirthday, 10, false);
 	playMusic = false;
