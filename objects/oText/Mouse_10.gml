@@ -8,3 +8,10 @@ if ( date != -1 )
 		shake = shakeMagnitude;
 	}
 }
+
+
+if (playMusic)
+{
+	audio_play_sound(musBirthday, 10, false);
+	playMusic = false;
+}

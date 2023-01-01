@@ -29,3 +29,10 @@ if ( date != -1 )
 }
 
 //show_debug_message(age);
+
+
+birthday = false;
+if ( current_month == date[1] && current_day == date[2] ) birthday = true;
+
+playMusic = false;
+if (birthday) playMusic = true;
