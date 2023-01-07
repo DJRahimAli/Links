@@ -11,7 +11,7 @@ layerid = layer_get_id("Background");
 
 links =
 [
-	["Simple Links",   "SimpleLinks.html"					   ],
+	["Simple Links",   "SimpleLinks"						   ],
 	
 	
 	["Twitter",		   "https://twitter.com/djrahimali"		   ],
