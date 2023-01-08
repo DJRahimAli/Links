@@ -12,7 +12,6 @@
     {"id":{"name":"oBorder","path":"objects/oBorder/oBorder.yy",},"order":2,},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},"order":0,},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},"order":0,},
-    {"id":{"name":"sOverlay","path":"sprites/sOverlay/sOverlay.yy",},"order":8,},
     {"id":{"name":"oText","path":"objects/oText/oText.yy",},"order":4,},
     {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},"order":5,},
     {"id":{"name":"browser_scrollbar","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},"order":0,},
