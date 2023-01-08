@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oOverlay",
-  "spriteId": {
-    "name": "sOverlay",
-    "path": "sprites/sOverlay/sOverlay.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
