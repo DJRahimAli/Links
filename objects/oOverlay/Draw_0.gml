@@ -5,8 +5,8 @@ draw_rectangle
 (
 	oBorder.bbox_left,
 	oBorder.bbox_top,
-	oBorder.bbox_right,
-	oBorder.bbox_bottom,
+	oBorder.bbox_right+1,
+	oBorder.bbox_bottom+1,
 	false
 );
 
