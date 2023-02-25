@@ -15,7 +15,7 @@ links =
 	
 	
 	["Twitter",		   "https://twitter.com/djrahimali"		   ],
-	["Newgrounds",	   "https://djkirby78.newgrounds.com"	   ],
+	["Newgrounds",	   "https://djrahimali.newgrounds.com"	   ],
 	
 	["Youtube",		   "https://www.youtube.com/@DJRahimAli"   ],
 	["GitHub",		   "https://github.com/DJRahimAli"		   ],
