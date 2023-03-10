@@ -37,6 +37,7 @@
     "IDEVersion": "2023.2.0.71",
   },
   "resources": [
+    {"id":{"name":"links","path":"extensions/links/links.yy",},},
     {"id":{"name":"sBorder","path":"sprites/sBorder/sBorder.yy",},},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},},
     {"id":{"name":"BufferFunctions","path":"scripts/BufferFunctions/BufferFunctions.yy",},},
