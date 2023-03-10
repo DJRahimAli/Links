@@ -30,7 +30,7 @@ links =
 	["SoundCloud",	   "https://soundcloud.com/djrahimali"	   ],
 	
 	
-	["Age:\n",		   [2005, 7, 10, 0, 0, 0]				   ]
+	["Age:\n",		   "\nBirthday:\n", [2005, 7, 10, 0, 0, 0] ]
 ];
 
 
