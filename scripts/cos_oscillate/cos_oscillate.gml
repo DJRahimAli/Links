@@ -1,10 +1,5 @@
-/// @description cos_oscillate(min,max,duration,?position)
-/// @function cos_oscillate
-/// @param min
-/// @param max
-/// @param duration [in seconds]
-/// @param ?position
-function cos_oscillate(){
-  var position = argument_count>3 ? argument[3] : get_timer() / 1000000;
-  return((argument[1]-argument[0])/2 * cos(position*2*pi/argument[2]) + (argument[1]+argument[0])/2);
+/// @func cos_oscillate(min,max,duration,[position in microseconds])
+function cos_oscillate(_min, _max, _duration, _pos = get_timer()) {
+  if(_duration == 0) _duration = math_get_epsilon();
+  return((_max-_min)/2 * dcos(360 * 0.000001 * _pos / _duration) + (_max+_min)/2);
 }
