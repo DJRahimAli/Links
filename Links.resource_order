@@ -16,7 +16,6 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"links","order":1,"path":"extensions/links/links.yy",},
     {"name":"sBorder","order":4,"path":"sprites/sBorder/sBorder.yy",},
     {"name":"oManager","order":1,"path":"objects/oManager/oManager.yy",},
     {"name":"BufferFunctions","order":5,"path":"scripts/BufferFunctions/BufferFunctions.yy",},
