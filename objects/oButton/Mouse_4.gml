@@ -1,6 +1,6 @@
 /*if ( link != 0 )
 {*/
-	if ( oManager.links[ link, 1 ] != -1 ) url_open( oManager.links[ link, 1 ] );
+	if ( oManager.links[oManager.page][ link, 1 ] != -1 ) url_open( oManager.links[oManager.page][ link, 1 ] );
 /*}
 else
 {

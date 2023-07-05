@@ -12,7 +12,7 @@ monthArray = ["January", "February", "March", "April", "May", "June", "July", "A
 
 date_set_timezone(timezone_utc);
 
-date = oManager.links[11,2];
+date = oManager.links[oManager.page][11,2];
 
 if ( date != -1 )
 {
@@ -24,7 +24,7 @@ if ( date != -1 )
 	var birthdayString = string(date[2]) + ", " + monthArray[date[1]-1] + ", " + string(date[0]);
 	//var birthdayString = monthArray[date[1]-1] + ", " + string(date[2]) + ", " + string(date[0]);
 	
-	age = string( oManager.links[11,0] ) + yearString + string( oManager.links[11,1] ) + birthdayString;
+	age = string( oManager.links[oManager.page][11,0] ) + yearString + string( oManager.links[oManager.page][11,1] ) + birthdayString;
 }
 
 //show_debug_message(age);

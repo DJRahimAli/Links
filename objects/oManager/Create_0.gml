@@ -8,8 +8,32 @@ draw_set_font(fText);
 
 layerid = layer_get_id("Background");
 
+page = 0;
+
 
 links =
+[[
+	["Simple Links",	working_directory + "SimpleLinks"		],
+	
+	
+	["Twitter",			"https://twitter.com/djrahimali"		],
+	["Newgrounds",		"https://djrahimali.newgrounds.com"		],
+	
+	["Youtube",			"https://www.youtube.com/@DJRahimAli"	],
+	["GitHub",			"https://github.com/DJRahimAli"			],
+	
+	["Youtube\nExtra",	"https://www.youtube.com/@RahimAliExtra"],
+	["itch.io",			"https://rahimali.itch.io"				],
+	
+	["Discord\nServer", "https://discord.gg/JDgXWDz5Ae"			],
+	["Steam",			"https://steamcommunity.com/id/RahimAli"],
+	
+	["Twitch",			"https://www.twitch.tv/djrahimali"		],
+	["SoundCloud",		"https://soundcloud.com/djrahimali"		],
+	
+	
+	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0] ]
+],
 [
 	["Simple Links",	working_directory + "SimpleLinks"		],
 	
@@ -31,7 +55,7 @@ links =
 	
 	
 	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0] ]
-];
+]];
 
 
 if (!file_exists("Links.json"))
