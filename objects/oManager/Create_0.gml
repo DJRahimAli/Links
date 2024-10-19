@@ -11,26 +11,26 @@ layerid = layer_get_id("Background");
 
 links =
 [
-	["Simple Links",	"SimpleLinks"							],
+	["More Links",		"SimpleLinks"									],
 	
 	
-	["Twitter",			"https://twitter.com/djrahimali"		],
-	["Newgrounds",		"https://djrahimali.newgrounds.com"		],
+	["Bluesky",			"https://bsky.app/profile/rahimali.bsky.social"	],
+	["Newgrounds",		"https://djrahimali.newgrounds.com"				],
 	
-	["Youtube",			"https://www.youtube.com/@DJRahimAli"	],
-	["GitHub",			"https://github.com/DJRahimAli"			],
+	["Youtube",			"https://www.youtube.com/@DJRahimAli"			],
+	["GitHub",			"https://github.com/DJRahimAli"					],
 	
-	["Youtube\nExtra",	"https://www.youtube.com/@RahimAliExtra"],
-	["itch.io",			"https://rahimali.itch.io"				],
+	["Youtube\nExtra",	"https://www.youtube.com/@RahimAliExtra"		],
+	["itch.io",			"https://rahimali.itch.io"						],
 	
-	["Discord\nServer", "https://discord.gg/JDgXWDz5Ae"			],
-	["Steam",			"https://steamcommunity.com/id/RahimAli"],
+	["Discord",			"https://discord.com/users/278636451758080010"	],
+	["Steam",			"https://steamcommunity.com/id/RahimAli"		],
 	
-	["Twitch",			"https://www.twitch.tv/djrahimali"		],
-	["SoundCloud",		"https://soundcloud.com/djrahimali"		],
+	["Discord\nServer", "https://discord.gg/JDgXWDz5Ae"					],
+	["Who Am I?",		"https://rahimali.net/whoami"					],
 	
 	
-	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0] ]
+	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0]			]
 ];
 
 
