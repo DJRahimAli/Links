@@ -1,5 +1,5 @@
 {
-  "FolderOrderSettings": [
+  "FolderOrderSettings":[
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
@@ -15,17 +15,17 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings": [
-    {"name":"sBorder","order":4,"path":"sprites/sBorder/sBorder.yy",},
-    {"name":"oManager","order":1,"path":"objects/oManager/oManager.yy",},
-    {"name":"BufferFunctions","order":5,"path":"scripts/BufferFunctions/BufferFunctions.yy",},
-    {"name":"sTextBorder","order":9,"path":"sprites/sTextBorder/sTextBorder.yy",},
-    {"name":"oOverlay","order":3,"path":"objects/oOverlay/oOverlay.yy",},
+  "ResourceOrderSettings":[
     {"name":"oBorder","order":2,"path":"objects/oBorder/oBorder.yy",},
+    {"name":"oManager","order":1,"path":"objects/oManager/oManager.yy",},
+    {"name":"oOverlay","order":3,"path":"objects/oOverlay/oOverlay.yy",},
     {"name":"oText","order":4,"path":"objects/oText/oText.yy",},
-    {"name":"sButton","order":5,"path":"sprites/sButton/sButton.yy",},
+    {"name":"BufferFunctions","order":5,"path":"scripts/BufferFunctions/BufferFunctions.yy",},
     {"name":"cos_oscillate","order":1,"path":"scripts/cos_oscillate/cos_oscillate.yy",},
+    {"name":"sBorder","order":4,"path":"sprites/sBorder/sBorder.yy",},
+    {"name":"sButton","order":5,"path":"sprites/sButton/sButton.yy",},
     {"name":"sText","order":7,"path":"sprites/sText/sText.yy",},
+    {"name":"sTextBorder","order":9,"path":"sprites/sTextBorder/sTextBorder.yy",},
     {"name":"sTile","order":1,"path":"sprites/sTile/sTile.yy",},
   ],
 }
