@@ -14,7 +14,7 @@ links =
 	["More Links",		"SimpleLinks"									],
 	
 	
-	["Sorlag",			"https://sorlag.com"							],
+	["Bluesky",			"https://bsky.app/profile/rahimali.net"			],
 	["Newgrounds",		"https://djrahimali.newgrounds.com"				],
 	
 	["Youtube",			"https://www.youtube.com/@DJRahimAli"			],
