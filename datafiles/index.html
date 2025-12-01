@@ -90,15 +90,25 @@
     ${GM_HTML5_PreBody}
 
     <body>
+        <!-- Custom BodyStart code is injected here -->
+        ${GM_HTML5_BodyStart}
+
         <div class="gm4html5_div_class" id="gm4html5_div_id">
             
             <!-- Builtin injector for splash screen -->
             ${GM_HTML5_InjectSplashScreen}
 
+            <!-- Custom PreCanvas code is injected here -->
+            ${GM_HTML5_PreCanvas}
+
             <!-- Create the canvas element the game draws to -->
             <canvas id="canvas" width="${GM_HTML5_GameWidth}" height="${GM_HTML5_GameHeight}" ${GM_HTML5_InjectCenterStyle}>
-                <p>Your browser doesn't support the HTML5 canvas, please go to <a href="assets/SimpleLinks">Simple Links</a> instead.</p>
+                ${GM_HTML5_Canvas}
+                <p>Your browser doesn't support HTML5 canvas, please go to <a href="SimpleLinks">Simple Links</a> instead.</p>
             </canvas>
+            
+            <!-- Custom PostCanvas code is injected here -->
+            ${GM_HTML5_PostCanvas}
         </div>
 
         <!-- Run the game code -->
@@ -112,6 +122,8 @@
         <!-- Builtin injector for injecting google analytics code -->
         ${GM_HTML5_InjectGoogleAnalytics}
 
+        <!-- Custom BodyEnd code is injected here -->
+        ${GM_HTML5_BodyEnd}
     </body>
 
 	<!-- Mastodon Verification -->
