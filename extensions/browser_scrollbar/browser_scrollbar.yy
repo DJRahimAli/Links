@@ -16,11 +16,9 @@
   "exportToGame":true,
   "extensionVersion":"0.0.1",
   "files":[
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"browser_scrollbar.js","final":"","functions":[
+    {"$GMExtensionFile":"v1","%Name":"","constants":[],"copyToTargets":-1,"filename":"browser_scrollbar.js","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"browser_scrollbar_enabled","argCount":1,"args":[2,],"documentation":"","externalName":"browser_scrollbar_enabled","help":"browser_scrollbar_enabled(z)","hidden":false,"kind":5,"name":"browser_scrollbar_enabled","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":5,"name":"","order":[
-        {"name":"browser_scrollbar_enabled","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},
-      ],"origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":5,"name":"","origname":"","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject":"",
   "hasConvertedCodeInjection":true,
