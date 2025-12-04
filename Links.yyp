@@ -38,7 +38,6 @@
   },
   "name":"Links",
   "resources":[
-    {"id":{"name":"browser_scrollbar","path":"extensions/browser_scrollbar/browser_scrollbar.yy",},},
     {"id":{"name":"fText","path":"fonts/fText/fText.yy",},},
     {"id":{"name":"oBorder","path":"objects/oBorder/oBorder.yy",},},
     {"id":{"name":"oButton","path":"objects/oButton/oButton.yy",},},
