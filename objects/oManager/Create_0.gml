@@ -6,7 +6,7 @@ layerid = layer_get_id("Background");
 
 links =
 [
-	["More Links",		"SimpleLinks"									],
+	["More Links",		"https://rahimali.net/SimpleLinks"				],
 	
 	
 	["Bluesky",			"https://bsky.app/profile/rahimali.net"			],
