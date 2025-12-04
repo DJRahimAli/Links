@@ -28,21 +28,32 @@ links =
 	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0]			]
 ];
 
+saveJson = false;
+loadJson = true;
 
-if (!file_exists("Links.json"))
+if (saveJson)
 {
-	// Save JSON
-	var _json = json_stringify(links);
-	SaveString(_json, "Links.json");
-	//show_debug_message( "Saved JSON" );
+	if (!file_exists("Links.json"))
+	{
+		// Save JSON
+		var _json = json_stringify(links);
+		SaveString(_json, "Links.json");
+		//show_debug_message( "Saved JSON" );
+	}
 }
 
 
 //if (!file_exists("Links.json")) return;
 
-// Load JSON
-var _json = LoadString("Links.json");
-links = json_parse(_json);
+if (loadJson)
+{
+	if (file_exists("Links.json"))
+	{
+		// Load JSON
+		var _json = LoadString("Links.json");
+		links = json_parse(_json);
+	}
+}
 
 //show_debug_message(links);
 
