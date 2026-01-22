@@ -11,26 +11,26 @@ layerid = layer_get_id("Background");
 
 links =
 [
-	["More Links",		"SimpleLinks"									],
+	["More Links",				"SimpleLinks"								],
 	
 	
-	["Bluesky",			"https://bsky.app/profile/rahimali.net"			],
-	["Newgrounds",		"https://djrahimali.newgrounds.com"				],
+	["Bluesky",					"https://bsky.app/profile/rahimali.net"		],
+	["Newgrounds",				"https://djrahimali.newgrounds.com"			],
 	
-	["Youtube",			"https://www.youtube.com/@DJRahimAli"			],
-	["GitHub",			"https://github.com/DJRahimAli"					],
+	["Youtube",					"https://www.youtube.com/@DJRahimAli"		],
+	["GitHub",					"https://github.com/DJRahimAli"				],
 	
-	["Youtube\nExtra",	"https://www.youtube.com/@RahimAliExtra"		],
-	["itch.io",			"https://rahimali.itch.io"						],
+	["Youtube\nExtra",			"https://www.youtube.com/@RahimAliExtra"	],
+	["itch.io",					"https://rahimali.itch.io"					],
 	
-	["Discord",			"https://discord.com/users/278636451758080010"	],
-	["Steam",			"https://steamcommunity.com/id/RahimAli"		],
+	["Bandcamp",				"https://rahimali.bandcamp.com"				],
+	["Steam",					"https://steamcommunity.com/id/RahimAli"	],
 	
-	["Discord\nServer", "https://discord.gg/JDgXWDz5Ae"					],
-	["Who Am I?",		"whoami"										],
+	["Bandcamp\nCollection",	"https://bandcamp.com/rahimali"				],
+	["Who Am I?",				"whoami"									],
 	
 	
-	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0]			]
+	["Age:\n",					"\nBirthday:\n", [2005, 7, 10, 0, 0, 0]		]
 ];
 
 saveJson = false;
