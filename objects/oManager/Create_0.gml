@@ -27,7 +27,7 @@ links =
 	["Steam",			"https://steamcommunity.com/id/RahimAli"		],
 	
 	["Discord\nServer", "https://discord.gg/JDgXWDz5Ae"					],
-	["Who Am I?",		"https://rahimali.net/whoami"					],
+	["Who Am I?",		"whoami"										],
 	
 	
 	["Age:\n",			"\nBirthday:\n", [2005, 7, 10, 0, 0, 0]			]
