@@ -24,7 +24,7 @@ links =
 	["itch.io",					"https://rahimali.itch.io"					],
 	
 	["Bandcamp",				"https://rahimali.bandcamp.com"				],
-	["Steam",					"https://steamcommunity.com/id/RahimAli"	],
+	["Steam",					"https://steamcommunity.com/id/DJRahimAli"	],
 	
 	["Bandcamp\nCollection",	"https://bandcamp.com/rahimali"				],
 	["Who Am I?",				"whoami"									],
